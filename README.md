@@ -1,2 +1,3 @@
 # Interleaved-Learning
-Code is coming soon.
+Training:
+  sh train.sh
