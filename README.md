@@ -55,11 +55,11 @@ CUDA_VISIBLE_DEVICES=0,1,2,3 python main.py \
 (1) The baseline setting in the code can be denoted as 'FBF' baseline, which is different with the reported 'FB' baseline in the paper. 
     But they are similar in performance:
     
-    ----------------------------------------------------------------------
-    |Baseline	|→M	        |→D	        |→MS	      |→C3	      |Avg       |
-    |FB	      |59.3/81.2	|54.3/70.9	|14.7/35.2	|36.1/37.4	|41.1/56.2 |
-    |FBF      |59.7/81.5	|53.6/73.0	|13.7/33.4	|35.3/35.9	|40.6/56.0 |
-    ----------------------------------------------------------------------
+    ------------------------------------------------------------
+    |Baseline|→M       |→D       |→MS      |→C3      |Avg      |
+    |FB      |59.3/81.2|54.3/70.9|14.7/35.2|36.1/37.4|41.1/56.2|
+    |FBF     |59.7/81.5|53.6/73.0|13.7/33.4|35.3/35.9|40.6/56.0|
+    ------------------------------------------------------------
     
  (2) Just simply set '--updateStyle' can activate the interleaved learning.
 
