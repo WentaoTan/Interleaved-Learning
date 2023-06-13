@@ -85,3 +85,5 @@ This repo borrows partially from [M3L](https://github.com/HeliosZhao/M3L/tree/ma
 
 ### Contact
 Email: ftwentaotan@mail.scut.edu.cn or 731584671@qq.com
+
+如果可以当然还是希望用中文contact我啦！
