@@ -12,7 +12,7 @@ This is the Pytorch implementation for M<sup>3</sup>L. -->
 - At least four 1080-Ti GPUs 
 - Training Data
 
-  The model is trained and evaluated on [Market-1501](https://drive.google.com/file/d/0B8-rUzbwVRk0c054eEozWG9COHM/view), [DukeMTMC-reID](https://drive.google.com/file/d/1jjE85dRCMOgRtvJ5RQV9-Afs-2_5dY3O/view), [MSMT17_V1](https://www.pkuvmc.com/dataset.html), [CUHK03](https://drive.google.com/file/d/1ILKiSthHm_XVeRQU2ThWNDVSO7lKWAZ_/view?usp=sharing), [CUHK-SYSU] (https://github.com/ShuangLI59/person_search).
+  The model is trained and evaluated on [Market-1501](https://drive.google.com/file/d/0B8-rUzbwVRk0c054eEozWG9COHM/view), [DukeMTMC-reID](https://drive.google.com/file/d/1jjE85dRCMOgRtvJ5RQV9-Afs-2_5dY3O/view), [MSMT17_V1](https://www.pkuvmc.com/dataset.html), [CUHK03](https://drive.google.com/file/d/1ILKiSthHm_XVeRQU2ThWNDVSO7lKWAZ_/view?usp=sharing), [CUHK-SYSU](https://github.com/ShuangLI59/person_search).
 
 
   Unzip all datasets and ensure the file structure is as follow:
@@ -30,7 +30,7 @@ This is the Pytorch implementation for M<sup>3</sup>L. -->
 ### Run
 ```
 ARCH=resnet50
-SRC1/SRC2/SRC3=market1501/dukemtmc/cuhk03/msmt17v1/ cuhk_sysu
+SRC1/SRC2/SRC3=market1501/dukemtmc/cuhk03/msmt17v1/cuhk_sysu
 TARGET=market1501/dukemtmc/cuhk03/msmt17v1
 
 # train baseline
@@ -52,7 +52,7 @@ CUDA_VISIBLE_DEVICES=0,1,2,3 python main.py \
 
  *Note:* 
  
-(1) The baseline setting in the code can be denoted as 'FBF' baseline, which is different with the reported 'FB' baseline in the paper. 
+(1) The baseline setting in this code can be denoted as 'FBF' baseline, which is different with the reported 'FB' baseline in the paper. 
     But they are similar in performance:
     
     ------------------------------------------------------------
