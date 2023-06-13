@@ -4,7 +4,7 @@
 This is the Pytorch implementation for M<sup>3</sup>L. -->
 
 
-![](figures/overview.png)
+![](figures/net.png)
  
 ### Requirements
 
@@ -65,7 +65,7 @@ CUDA_VISIBLE_DEVICES=0,1,2,3 python main.py \
 
 
 ### Results
-![](figures/m3l_results.png)
+![](figures/performance.png)
 
 
 
