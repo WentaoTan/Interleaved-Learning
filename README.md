@@ -79,7 +79,8 @@ This repo borrows partially from [M3L](https://github.com/HeliosZhao/M3L/tree/ma
   author={Tan, Wentao and Ding, Changxing and Wang, Pengfei and Gong, Mingming and Jia, Kui},
   journal={IEEE Transactions on Multimedia},
   year={2023},
-  publisher={IEEE}
+  publisher={IEEE},
+  doi={10.1109/TMM.2023.3283878}
 }
 ```
 
